@@ -1,12 +1,6 @@
 title: ADA Data Story
 remote_theme: pmarsceill/just-the-docs
 
-layout: default
-title: UI Components
-nav_order: 2
-has_children: true
-has_toc: false
-
 aux_links:
   "Pandas & Brown Bears on GitHub":
     - "https://github.com/epfl-ada/ada-2021-project-pandas-brown-bears"
