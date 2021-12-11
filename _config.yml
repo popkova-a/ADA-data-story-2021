@@ -1,2 +1,5 @@
 title: ADA Data Story
 remote_theme: pmarsceill/just-the-docs
+aux_links:
+  "Pandas & Brown Bears on GitHub":
+    - "https://github.com/epfl-ada/ada-2021-project-pandas-brown-bears"
