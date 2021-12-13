@@ -23,3 +23,4 @@ Other characteristics of the graph that we plan to get are the connectivity of t
 
 ## Key Takeaways:
 
+## Who Are We?
