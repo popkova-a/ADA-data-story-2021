@@ -1,5 +1,4 @@
-# Hi, there!
-<iframe src="/_includes/plot2015.html"
+<iframe src="/plot2015.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
