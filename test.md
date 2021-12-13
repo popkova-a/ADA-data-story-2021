@@ -1,6 +1,6 @@
 <iframe src="plot2015.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1000"
+    width="100%"
     height="1000"
     scrolling="no"
     seamless="seamless"
