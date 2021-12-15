@@ -24,3 +24,5 @@ Other characteristics of the graph that we plan to get are the connectivity of t
 ## Key Takeaways:
 
 ## Who Are We?
+ <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8129285"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
