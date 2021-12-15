@@ -26,7 +26,7 @@ Other characteristics of the graph that we plan to get are the connectivity of t
 ## Who Are We?
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8129285"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-# Katz Centrality:
+# Katz Centrality (7 people who appear in top-50 influential people 6 years in a row):
 <div class="flourish-embed flourish-chart" data-src="visualisation/8140221"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
 
 <div class="flourish-embed flourish-network" data-src="visualisation/8133516"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
