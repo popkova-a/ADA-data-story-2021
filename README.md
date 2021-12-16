@@ -1,10 +1,4 @@
-# "Influence network" hidden in Quotebank
-
----
-layout: default
-title: Introduction
-nav_order: 1
----
+# Influence network hidden in Quotebank
 
 ###    We are "Pandas & Brown Bears" and we introduce our ADA data story.
 ## Abstract:
