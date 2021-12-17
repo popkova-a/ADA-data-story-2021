@@ -276,7 +276,7 @@ The chord diagram represents how much the top-7 most influential people (accordi
 
 
 ## Profiles of the representative communities
-### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
+Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color. And by clicking the dot, you can hide the corresponding community.
 <div>
   <script>
   function openGraph_comm(evt, yearName) {
