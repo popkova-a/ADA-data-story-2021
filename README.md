@@ -180,27 +180,27 @@ The world is small, especially for famous public figures. Do you want to know ho
 
   <!-- Tab content -->
   <div id="2015_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2015_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8150019"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
   </div>
 
   <div id="2016_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8149786"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
   </div>
 
   <div id="2017_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8143275"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   </div>
 
   <div id="2018_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8144602"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   </div>
 
   <div id="2019_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8144488"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   </div>
 
   <div id="2020_comm" class="tabcontent_comm">
-    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8143518"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   </div>
 </div>
 
