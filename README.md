@@ -107,15 +107,16 @@ The world is small, especially for famous public figures. Do you want to know ho
   </script>
 </div>
 
+<div>
 <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
-    <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
-    <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
-    <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
-    <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
-    <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
-  </div>
+ <div class="tab">
+   <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
+   <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
+   <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
+   <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
+   <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
+   <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
+ </div>
 
   <!-- Tab content -->
   <div id="2015" class="tabcontent">
