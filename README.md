@@ -151,18 +151,18 @@ So, who are the most influential people? To answer this question, let’s look a
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8163376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Now we can compare this ranking with another one, which is based on the number of quotations in news, and look for the dependencies between the number of speaker’s quotes in the dataset and his/her influence according to Katz centrality in the "influence network". We will follow speakers that were already mentioned above and see who else has the largest number of quotations among all people.
-Donald Trump always took a leading position: he had a record number of quotations in different news publications. His level of influence was also the highest among all speakers in our dataset.
+**Donald Trump** always took a leading position: he had a record number of quotations in different news publications. His level of influence was also the highest among all speakers in our dataset.
 
-* Barack Obama moved down from the first position in 2015 and was out of the top-10 ranking since 2018, while he was still authoritative, according to our ranking of influential speakers. Nevertheless, he didn’t speak a lot about other influential people. You can check this in the Chord diagrams below.
+* **Barack Obama** moved down from the first position in 2015 and was out of the top-10 ranking since 2018, while he was still authoritative, according to our ranking of influential speakers. Nevertheless, he didn’t speak a lot about other influential people. You can check this in the Chord diagrams below.
 Joe Biden appeared in the top in 2018 and quickly took a leading position. His number of quotations and influence level increased significantly when he launched his election campaign.
 
-* Bernie Sanders was present in the top-10 during all years, apart from 2017.
+* **Bernie Sanders** was present in the top-10 during all years, apart from 2017.
 
-* Hillary Clinton from the 3rd place moved out of the ranking in 2017: she was not quoted a lot, but her influence was still great.
+* **Hillary Clinton** from the 3rd place moved out of the ranking in 2017: she was not quoted a lot, but her influence was still great.
 
-* The interesting fact is that we can’t see Mitchell McConnell in this ranking at all. This means that he was not often quoted in news articles, and, at the same time, he was authoritative, according to the top-7 of the most influential people.
+* The interesting fact is that we can’t see **Mitchell McConnell** in this ranking at all. This means that he was not often quoted in news articles, and, at the same time, he was authoritative, according to the top-7 of the most influential people.
 
-* Vladimir Putin was in the ranking in 2016-2018.
+* **Vladimir Putin** was in the ranking in 2016-2018.
 
 * Narendra Modi and Pope Francis were often quoted in the news. They were always present at the top of our ranking based on the number of quotations. At the same time, we can’t see them among the most influential speakers.
 
