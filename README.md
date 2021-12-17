@@ -9,6 +9,8 @@ The world is small, especially for famous public figures. Do you want to know ho
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8163376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/8165619"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 <div>
   <script>
   function openGraph_circ(evt, yearName) {
