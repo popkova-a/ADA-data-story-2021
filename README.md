@@ -271,7 +271,7 @@ People at the center position tend to have high in degree and relatively low out
 
 ## Profiles of the representative communities
 
-###Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
+### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
 
 
 "Human beings form social networks because the benefits of a connected life outweigh the costs."
