@@ -5,11 +5,11 @@ The world is small, especially for famous public figures. Do you want to know ho
 
 ## Introduction
 
-Nowadays we acquire information mostly from social media, but a lot of people still prefer to read news. We know how news can manipulate public opinion. Journalists select topics and the way they cover them. In addition, they choose people they quote. Who are these quoted people? How are they related to each other? Usually, we don’t think about these questions when we read a news article. However, their statements have a huge impact on our society. In our project we present an “influence network” of speakers quoted in news articles between 2015 and 2020 and show what type of communities they form, highlighting some surprising results.
+Nowadays we acquire information mostly from social media, but a lot of people still prefer to read news. We know how news can manipulate public opinion. Journalists select topics and the way they cover them. In addition, they choose people they quote. Who are these quoted people? How are they related to each other? Usually, we don’t think about these questions when we read a news article. However, their statements have a huge impact on our society. In our project we present an “influence network” of speakers quoted in news articles between 2015 and 2020 and show what types of communities they form, highlighting some surprising results.
 
 ## Data Source
 
-Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, was extracted from 162 million English news articles published between 2008 and 2020. Here, we first use Quotebank to find out the most “conversable” speakers. Since we want to find out the network of the most influential people, we selected 350 speakers whose quotation number ranks the highest. Then, we build a speaker pair, to find out how many times a “speaker” quoted a “character”.
+Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, was extracted from 162 million English news articles published between 2008 and 2020. Here, we first use Quotebank to find out the most “conversable” speakers. Since we want to find out the network of the most influential people, we selected 350 speakers whose quotation number ranks the highest. Then, we build a speaker pair, to find out how many times a “speaker” mentioned a “character”.
 
 ## "Influence network"
 
