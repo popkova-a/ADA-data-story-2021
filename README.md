@@ -118,7 +118,7 @@ We introduce the "influence network" of Quotebank speakers. The color of the nod
   </script>
 </div>
 
-In the year of 2015, 2017 and 2018, communities are weakly connected, whereas in the year of 2016, 2019 and 2020, communities are not. This means that in 2016, 2019 and 2020 years there exist separated communities of speakers having only internal connections.
+In the year of 2015, 2017 and 2018, communities are weakly connected, whereas in the year of 2016, 2019 and 2020, communities are not weakly connected. This means that in 2016, 2019 and 2020 years there exist separated communities of speakers having only internal connections.
 
 The degree distribution and the in-degree distribution of the nodes in each year’s graph are skewed, justifying that we work with the real-world network.
 
