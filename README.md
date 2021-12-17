@@ -13,7 +13,7 @@ Quotebank, an open corpus of 178 million quotations attributed to the speakers w
 
 ## "Influence network"
 
-We introduce the "influence network" of Quotebank speakers. The color of the node is determined by the node degree. In-degree in our case corresponds to the number of quotes uttered by the speaker about another person, out-degree defines the number of quotes about this person uttered by other speakers. Red color corresponds to high node degree, purple color corresponds to low degree. The size of the node depends on the amount of speaker quotations this particular year (the larger number of quotations - the larger size of the node corresponding to that speaker). The directed edges in our graph have weight determined by the number of quotes that the "speaker" devotes to the "character".
+We introduce the "influence network" of Quotebank speakers. The color of the node is determined by the node degree. Out-degree in our case corresponds to the number of quotes uttered by the speaker about others, out-degree defines the number of quotes about this person uttered by other speakers. Red color corresponds to high node degree, purple color corresponds to low degree. The size of the node depends on the amount of speaker quotations this particular year (the larger number of quotations - the larger size of the node corresponding to that speaker). The directed edges in our graph have weight determined by the number of quotes that the "speaker" devotes to the "character".
 
 <div>
   <script>
