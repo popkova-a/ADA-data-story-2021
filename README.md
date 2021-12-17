@@ -67,7 +67,7 @@ The world is small, especially for famous public figures. Do you want to know ho
 
   <!-- Tab links -->
   <div class="tab">
-    <button class="tablinks" onclick="openGraph(event, '2015')">2015</button>
+    <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
     <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
     <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
     <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
@@ -102,11 +102,9 @@ The world is small, especially for famous public figures. Do you want to know ho
 </div>
 
 <div>
-<button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
-
-<script>
-document.getElementById("defaultOpen").click();
-</script>
+  <script>
+  document.getElementById("defaultOpen").click();
+  </script>
 </div>
 
 ## Research Questions:
