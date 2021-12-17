@@ -275,6 +275,7 @@ The chord diagram represents how much the top-7 most influential people (accordi
   </script>
 </div>
 
+We used two different metrics to define the “importance” of the speakers in news publications: the number of their quotations in the dataset and their “influence” based on Katz centrality in the speakers network. The corresponding rankings are similar, but they contain different people. Some speakers have a lot of quotations, but don’t have a high influence level. Others remain at the leading positions in the ranking of the most influential people, while not being quoted often. 
 
 ## Profiles of the representative communities
 Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color. And by clicking the dot, you can hide the corresponding community.
@@ -436,3 +437,5 @@ The three former communities we discovered are more or less correlated with poli
 <div class="flourish-embed flourish-chart" data-src="visualisation/8165619"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
 After scrutiny, we discovered that due to the lack of data in these two years, the total numbers of quotations in 2016 and 2020 were lower compared to the other four years. With fewer quotations to analyse, the connections among different speakers are more sparse, therefore, only speakers who talk a lot with each other could form a community. In this case, the sub-communities emerge from those bigger communities.
+
+## All in all, in the conducted analysis the quotations were chosen subjectively by journalists: they decide which speakers to quote and what content to use. 
