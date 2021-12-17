@@ -2,7 +2,8 @@
 
 We are "Pandas & Brown Bears":
 
-![bjoernbjoernar-panda-bjoern-brun-bjoern-djurliv-klistermaerke](https://user-images.githubusercontent.com/91320882/146611776-03b3c018-5d7f-484b-bdaf-7b998fd4618d.jpg)
+![Panda](https://user-images.githubusercontent.com/91320882/146612259-219b6d31-33bf-421e-9cfc-0cab9acc3076.jpg)
+
 
 Anastasia Popkova, Mathematics and Computer Science, Exchange student from BMSTU
 
