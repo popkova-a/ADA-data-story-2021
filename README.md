@@ -100,6 +100,15 @@ The world is small, especially for famous public figures. Do you want to know ho
     <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
   </div>
 </div>
+
+<div>
+<button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
+
+<script>
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+
 ## Research Questions:
 * **Who are the most authoritative people that other speakers talk about?** 
     - Introducing the new measure of “influence” defined as the number of mentions of the person by other speakers, we are interested in the fact who occupies the highest positions in the ranking based on this impact rate. 
