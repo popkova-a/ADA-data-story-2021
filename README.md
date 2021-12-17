@@ -150,7 +150,7 @@ So, who are the most influential people? To answer this question, let’s look a
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8163376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Now we can compare this ranking with another one, which is based on the number of quotations in news, and look for the dependencies between the number of speaker’s quotes in the dataset and his/her influence according to Katz centrality of the "influence network". We will follow speakers that were already mentioned above and see who else has the largest number of quotations among all people.
+Now we can compare this ranking with another one, which is based on the number of quotations in news, and look for the dependencies between the number of speaker’s quotes in the dataset and his/her influence according to Katz centrality in the "influence network". We will follow speakers that were already mentioned above and see who else has the largest number of quotations among all people.
 Donald Trump always took a leading position: he had a record number of quotations in different news publications. His level of influence was also the highest among all speakers in our dataset.
 
 * Barack Obama moved down from the first position in 2015 and was out of the top-10 ranking since 2018, while he was still authoritative, according to our ranking of influential speakers. Nevertheless, he didn’t speak a lot about other influential people. You can check this in the Chord diagrams below.
