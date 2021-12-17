@@ -266,7 +266,6 @@ The world is small, especially for famous public figures. Do you want to know ho
     border: 1px solid #ccc;
     border-top: none;
     width: 800px;
-    height: 800px;
   }
   </style>
 
