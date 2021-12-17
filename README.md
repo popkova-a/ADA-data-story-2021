@@ -110,36 +110,36 @@ The world is small, especially for famous public figures. Do you want to know ho
 <div>
 <!-- Tab links -->
  <div class="tab">
-   <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
-   <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
-   <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
-   <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
-   <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
-   <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
+   <button class="tablinks" onclick="openGraph(event, '2015_')" id="defaultOpen">2015</button>
+   <button class="tablinks" onclick="openGraph(event, '2016_')">2016</button>
+   <button class="tablinks" onclick="openGraph(event, '2017_')">2017</button>
+   <button class="tablinks" onclick="openGraph(event, '2018_')">2018</button>
+   <button class="tablinks" onclick="openGraph(event, '2019_')">2019</button>
+   <button class="tablinks" onclick="openGraph(event, '2020_')">2020</button>
  </div>
 
   <!-- Tab content -->
-  <div id="2015" class="tabcontent">
+  <div id="2015_" class="tabcontent">
     <div class="flourish-embed flourish-network" data-src="visualisation/8150019"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
   </div>
 
-  <div id="2016" class="tabcontent">
+  <div id="2016_" class="tabcontent">
     <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
   </div>
 
-  <div id="2017" class="tabcontent">
+  <div id="2017_" class="tabcontent">
     <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
   </div>
 
-  <div id="2018" class="tabcontent">
+  <div id="2018_" class="tabcontent">
     <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
   </div>
 
-  <div id="2019" class="tabcontent">
+  <div id="2019_" class="tabcontent">
     <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
   </div>
 
-  <div id="2020" class="tabcontent">
+  <div id="2020_" class="tabcontent">
     <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
   </div>
 </div>
