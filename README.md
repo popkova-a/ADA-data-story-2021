@@ -11,6 +11,120 @@ Nowadays we acquire information mostly from social media, but a lot of people st
 
 Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, was extracted from 162 million English news articles published between 2008 and 2020. Here, we first use Quotebank to find out the most “conversable” speakers. Since we want to find out the network of the most influential people, we selected 350 speakers whose quotation number ranks the highest. Then, we build a speaker pair, to find out how many times a “speaker” quoted a “character”.
 
+## "Influence network"
+
+We introduce "intfluence network" of Quotebank speakers. The color of the node is determined by the node degree. The node degree is the number of edges pointing to the node and going out of the node. Red color corresponds to high node degree, purple color corresponds to low degree. The weighted node degree is the sum of the edge weights for edges incident to that node. The size of the node depends on the amount of quotations of the speaker this particular year (the larger number of quotations - the larger size of the node corresponding to that speaker).
+
+<div>
+  <script>
+  function openGraph(evt, yearName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(yearName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  <style>
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 800px;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 800px;
+    height: 800px;
+  }
+  </style>
+
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
+    <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
+    <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
+    <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
+    <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
+    <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="2015" class="tabcontent">
+    <embed type="text/html" src="plots/plot2015_750.html" width="800" height="800">
+  </div>
+
+  <div id="2016" class="tabcontent">
+    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
+  </div>
+
+  <div id="2017" class="tabcontent">
+    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
+  </div>
+
+  <div id="2018" class="tabcontent">
+    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
+  </div>
+
+  <div id="2019" class="tabcontent">
+    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
+  </div>
+
+  <div id="2020" class="tabcontent">
+    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
+  </div>
+</div>
+
+<div>
+  <script>
+  document.getElementById("defaultOpen").click();
+  </script>
+</div>
+
+In the year of 2015, 2017 and 2018, communities are weakly connected.
+whereas in the year of 2016, 2019 and 2020, communities are not weakly connected, which means that there are separated communities of speakers having connections only between people from the same community.
+
+The degree distribution and the in-degree distribution of the nodes in each year’s graph are skewed, justifying that we work with the real-world network.
+
+People at the center position tend to have high in degree and relatively low out degree while people on the edge are prone to have high out degree and relatively low in degree, corresponding to the true reality.
+
 ## Analysis of the top-7 most influential people with explanations based on the political events and connections between these speakers
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/8140221"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -37,7 +151,7 @@ So, who are the most influential people? To answer this question, let’s look a
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8163376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Now we can compare this ranking with another one, which is based on the number of quotations in news, and look for the dependencies between the number of speaker’s quotes in the dataset and his/her influence. We will follow speakers that were already mentioned above and see who else has the largest number of quotations among all people.
+Now we can compare this ranking with another one, which is based on the number of quotations in news, and look for the dependencies between the number of speaker’s quotes in the dataset and his/her influence according to Katz centrality of the "influence network". We will follow speakers that were already mentioned above and see who else has the largest number of quotations among all people.
 Donald Trump always took a leading position: he had a record number of quotations in different news publications. His level of influence was also the highest among all speakers in our dataset.
 
 * Barack Obama moved down from the first position in 2015 and was out of the top-10 ranking since 2018, while he was still authoritative, according to our ranking of influential speakers. Nevertheless, he didn’t speak a lot about other influential people. You can check this in the Chord diagrams below.
@@ -154,119 +268,6 @@ There are also a lot of other people in this ranking. The majority of them are A
 <div>
   <script>
   document.getElementById("defaultOpen_circ").click();
-  </script>
-</div>
-
-## Number of quotes in degree out degree
-
-In the year of 2015, 2017 and 2018, communities are weakly connected.
-whereas in the year of 2016, 2019 and 2020, communities are not weakly connected, which means that there are separated communities of speakers having connections only between people from the same community.
-
-The degree distribution and the in-degree distribution of the nodes in each year’s graph are skewed, justifying that we work with the real-world network.
-
-People at the center position tend to have high in degree and relatively low out degree while people on the edge are prone to have high out degree and relatively low in degree, corresponding to the true reality.
-
-
-<div>
-  <script>
-  function openGraph(evt, yearName) {
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    document.getElementById(yearName).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-  </script>
-
-  <style>
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 800px;
-  }
-
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
-
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
-
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    width: 800px;
-    height: 800px;
-  }
-  </style>
-
-  <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
-    <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
-    <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
-    <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
-    <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
-    <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
-  </div>
-
-  <!-- Tab content -->
-  <div id="2015" class="tabcontent">
-    <embed type="text/html" src="plots/plot2015_750.html" width="800" height="800">
-  </div>
-
-  <div id="2016" class="tabcontent">
-    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
-  </div>
-
-  <div id="2017" class="tabcontent">
-    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
-  </div>
-
-  <div id="2018" class="tabcontent">
-    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
-  </div>
-
-  <div id="2019" class="tabcontent">
-    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
-  </div>
-
-  <div id="2020" class="tabcontent">
-    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
-  </div>
-</div>
-
-<div>
-  <script>
-  document.getElementById("defaultOpen").click();
   </script>
 </div>
 
