@@ -168,6 +168,10 @@ Joe Biden appeared in the top in 2018 and quickly took a leading position. His n
 
 There are also a lot of other people in this ranking. The majority of them are American politicians. However, we can also find politicians from Israel, Canada, the United Kingdom, India and Australia. Moreover, several football managers and even Elon Musk with an enormous number of quotations also appear in our ranking.
 
+## Chord diagram
+
+The chord diagram represents how much the top-7 most influential people (according to Katz cantrality) of each year speak about each other.
+
 <div>
   <script>
   function openGraph_circ(evt, yearName) {
@@ -273,6 +277,7 @@ There are also a lot of other people in this ranking. The majority of them are A
 
 ## Profiles of the representative communities
 ### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
+<div>
   <script>
   function openGraph_comm(evt, yearName) {
     var i, tabcontent, tablinks;
