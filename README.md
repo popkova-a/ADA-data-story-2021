@@ -262,7 +262,62 @@ Here
   </script>
 </div>
 
-Here
+## Profiles of the representative communities
+
+###Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
+
+
+"Human beings form social networks because the benefits of a connected life outweigh the costs."
+
+* **"Most influential people" community**
+
+    - Although the community is dynamic and evolving over the years, undoubtedly, the hub of the largest community always belongs to the incumbent US President, who is the most mentioned person in this community. American politicians including the secretaries of state, speakers of the United States House of Representatives, governors, and senators occupy the largest proportion in this community. 
+
+    - Moreover, presidents of China, North Korea, Russia, Palestine, France, and the sovereign of the Vatican City State are also in this American-dominated community. Donald Trump stoked up the "America First" slogan in his speech, emphasizing the superiority of the United States, inciting hatred, changing political attitudes towards potentially threatening countries, such as China, North Korea, and Russia. Trump talked about these leaders much more than leaders of other countries, causing the sharp deterioration of bilateral relations.
+
+    - Additionally, people from various domains, especially the business field, also appear in this big community. For instance, Jeff Bezos: founder of “Amazon” and one of the biggest stakeholders of “The Washington Post”, Elon Musk: CEO of “SpaceX” and “Tesla”, and Michael Bloomberg: founder of “Bloomberg L.P.”. Not only do they control the world’s biggest corporate giants, they are also actively involved in political campaigns, which could be explained by the fact that politics and business are usually closely related and inseparable. 
+
+    - Surprisingly, some American celebrities are also in this “big” community. In 2020, Kobe Bryant entered this community due to his unexpected death and the whole world was caught in a whirlpool of grief mourned for this fallen legend over months.
+
+* **Indian Politicians**
+
+    - The Indian politician community led by current Indian prime minister Narendra Modi consists of a prominent position in the influential social network. Donald Trump shifted the Obama era rebalance of the Asia-Pacific region with a new “Indo-Pacific” strategy, enhancing the positive partnership with India. Modi and Trump established their own rapport since people with similar characteristics are likely to become friends. In addition, Modi is the most quoted and also the most influential figure in this community over the 6 years. 
+
+* **British Celebrities (only appeared in 2020)**
+
+    - The Brexit issue has been one of the most contentious topics in recent years. Since 2016, politicians have repeatedly tried to negotiate and reach a consensus between the UK and EU that would lay out the terms of the UK’s exit, ripping up the old rules of British politics as well as reshaping Europe’s trading landscape.
+
+    - Meanwhile, the British royal family has always been the focus of the public’s attention for its members’ anecdotes: Queen’s era-defining outfits, Prince Wiliam’s new baby, Prince Harry and Meghan Markle’s Royal Drama.
+
+    - It's not surprising that British celebrities could form a community. This community includes Prime Minister Boris Johnson, Prince Charles, Meghan Markle, Keir Starmer, and even our beloved British singer Elton John.
+
+    - The three former communities we discovered are more or less correlated with  politics. The question is, apart from politics, what do people talk about? 
+
+* **European Football Community:**
+
+    - Football is the most popular sport worldwide. Europe, home of the biggest football clubs such as Real Madrid, Bayern Munich, Manchester United, has always been the center of football matches, not to mention European countries such as Germany, Belgium, England, and Italy. They have also consistently ranked top in FIFA. Therefore, European football celebrities form the world's largest sports community.
+
+    - In this community, we could find the most authoritative figures in the football world. Pep Guardiola: the manager of Premier League club Manchester City, José Mourinho: the current head coach of Serie A club Roma, and Jürgen Klopp: the manager of Premier League club Liverpool. 
+
+    - The interesting part is, we always assume that for a football team, the football players should be the stars. However, the majority of the people in this community are football team managers or former football players between the 1980s and 1990s. Exceptions are only for superstars like Cristiano Ronaldo: he is too hot to get away from the public’s attention.
+
+* **American Basketball Community:**
+
+    - Basketball is among the most popular sports that are watched across the globe, melting the audience's heart as well as presenting true sport spirits. Another biggest sports community is the American Basketball Community. 
+
+    - This community comprises famous players like LeBron James: one of the greatest players in the NBA, Steven Curry: opponent of LeBron James, Kyrie Irving: teammate of Lebron James who helped the Cleveland Cavaliers secure their 2016 NBA championship over the Golden State Warriors, Dwyane Wade: LeBron James’s former teammate. This community also contains professional basketball coaches like Steve Kerr: Steven Curry’s coach, Frank Vogel: LeBron James’s coach and Nick Nurse. 
+
+* **American Football and Baseball Community**
+    - American football is the most popular sport in the United States. A survey showed that  33% of Hispanic respondents enjoyed watching American Football. The NLF (National Football League) games are the most watched content on TV, and the NFL broadcast has an average of 16.6 million viewers. This perfectly explains why the American football community, which is centered on Tom Brady (except for 2015), is one of the most stable communities during the analysed 6 years. 
+
+    - Same situation also applies for baseball, which is the third most popular sport in the United States. The main organization, Major League Baseball (MLB), attracted 8 million viewers when the all star game began. American Baseball players, which is always dominated by Davide Price, Joe Maddon, and Terry Collins, also form a stable community.
+
+* **Actors and Singers Community(only appeared in 2020)**
+
+    - Maybe you are not a big fan of pop music, but I am sure you know Taylor Swift: the most famous singer in the world according to Google Search. Maybe you don’t listen to rap at all, but I am sure you know Kanye West, who declared he would run for US president in 2020. Maybe you are not an avid fan of television sitcoms, but I am sure you must have heard about “Friends”. 
+
+    - Entertainment industries like the music industry and film industry take a big part of people’s daily life. People enjoy the high quality content that the creators bring to them, whenever Lady Gaga releases a new album or Tom Hanks’ new movie comes out, they could always draw the public's attention. However, there is something the public cares more about: those creators’ personal lives. 
+
 
 <div>
   <script>
