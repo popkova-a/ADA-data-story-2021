@@ -271,7 +271,8 @@ There are also a lot of other people in this ranking. The majority of them are A
 </div>
 
 
-<div>
+## Profiles of the representative communities
+### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
   <script>
   function openGraph_comm(evt, yearName) {
     var i, tabcontent, tablinks;
@@ -373,15 +374,11 @@ There are also a lot of other people in this ranking. The majority of them are A
   </script>
 </div>
 
-### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
-
-## Profiles of the representative communities
-
 "Human beings form social networks because the benefits of a connected life outweigh the costs."
 
  * **"Most influential people"**
 
-    - Although the community is dynamic and evolving over the years, undoubtedly, the hub of the largest community always belongs to the incumbent US President, who is the most mentioned person in this community. American politicians including the secretaries of state, speakers of the United States House of Representatives, governors, and senators occupy the largest proportion in this community. *
+    - Although the community is dynamic and evolving over the years, undoubtedly, the hub of the largest community always belongs to the incumbent US President, who is the most mentioned person in this community. American politicians including the secretaries of state, speakers of the United States House of Representatives, governors, and senators occupy the largest proportion in this community. 
 
     - Moreover, presidents of China, North Korea, Russia, Palestine, France, and the sovereign of the Vatican City State are also in this American-dominated community. Donald Trump stoked up the "America First" slogan in his speech, emphasizing the superiority of the United States, inciting hatred, changing political attitudes towards potentially threatening countries, such as China, North Korea, and Russia. Trump talked about these leaders much more than leaders of other countries, causing the sharp deterioration of bilateral relations.
 
@@ -424,11 +421,12 @@ The three former communities we discovered are more or less correlated with poli
 
 * **Actors and Singers Community(only appeared in 2020)**
 
-    - Maybe you are not a big fan of pop music, but I am sure you know Taylor Swift: the most famous singer in the world according to Google Search. Maybe you don’t listen to rap at all, but I am sure you know Kanye West, who declared he would run for US president in 2020. Maybe you are not an avid fan of television sitcoms, but I am sure you must have heard about “Friends”. 
+    - Maybe you are not a big fan of pop music, but we are sure you know Taylor Swift: the most famous singer in the world according to Google Search. Maybe you don’t listen to rap at all, but we are sure you know Kanye West, who declared he would run for US president in 2020. Maybe you are not an avid fan of television sitcoms, but we are sure you must have heard about “Friends”. 
 
     - Entertainment industries like the music industry and film industry take a big part of people’s daily life. People enjoy the high quality content that the creators bring to them, whenever Lady Gaga releases a new album or Tom Hanks’ new movie comes out, they could always draw the public's attention. However, there is something the public cares more about: those creators’ personal lives. 
 
-
+## Why are there more communities in 2016 and 2020?
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/8165619"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-Why are there more communities in 2016 and 2020? After scrutiny, we discovered that due to the lack of data in these two years, the total numbers of quotations in 2016 and 2020 were lower compared to the other four years. With fewer quotations to analyse, the connections among different speakers are more sparse, therefore, only speakers who talk a lot with each other could form a community. In this case, the sub communities emerge from those bigger communities.
+ 
+After scrutiny, we discovered that due to the lack of data in these two years, the total numbers of quotations in 2016 and 2020 were lower compared to the other four years. With fewer quotations to analyse, the connections among different speakers are more sparse, therefore, only speakers who talk a lot with each other could form a community. In this case, the sub-communities emerge from those bigger communities.
