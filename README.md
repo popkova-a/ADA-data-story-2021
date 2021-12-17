@@ -6,7 +6,7 @@ The world is small, especially for famous public figures. Do you want to know ho
 # ------------------------------------
 <div>
 <script>
-function openCity(evt, cityName) {
+function openGraph(evt, yearName) {
   var i, tabcontent, tablinks;
 
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -19,7 +19,7 @@ function openCity(evt, cityName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(yearName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 </script>
@@ -64,9 +64,9 @@ function openCity(evt, cityName) {
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openGraph(event, 'London')">London</button>
+  <button class="tablinks" onclick="openGraph(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openGraph(event, 'Tokyo')">Tokyo</button>
 </div>
 
 <!-- Tab content -->
