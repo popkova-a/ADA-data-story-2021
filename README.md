@@ -209,6 +209,109 @@ The world is small, especially for famous public figures. Do you want to know ho
   </script>
 </div>
 
+<div>
+  <script>
+  function openGraph_circ(evt, yearName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent_circ");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks_circ");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(yearName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  <style>
+  /* Style the tab */
+  .tab_circ {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 800px;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab_circ button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab_circ button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab_circ button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent_circ {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 800px;
+    height: 800px;
+  }
+  </style>
+
+  <!-- Tab links -->
+  <div class="tab_circ">
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2015_circ')" id="defaultOpen_circ">2015</button>
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2016_circ')">2016</button>
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2017_circ')">2017</button>
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2018_circ')">2018</button>
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2019_circ')">2019</button>
+    <button class="tablinks_circ" onclick="openGraph_circ(event, '2020_circ')">2020</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="2015_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8164531"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+
+  <div id="2016_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8164398"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+
+  <div id="2017_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8164312"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+
+  <div id="2018_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8164202"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+
+  <div id="2019_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8164102"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+
+  <div id="2020_circ" class="tabcontent_circ">
+    <div class="flourish-embed flourish-chord" data-src="visualisation/8163809"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  </div>
+</div>
+
+<div>
+  <script>
+  document.getElementById("defaultOpen_circ").click();
+  </script>
+</div>
+
 ## Research Questions:
 * **Who are the most authoritative people that other speakers talk about?** 
     - Introducing the new measure of “influence” defined as the number of mentions of the person by other speakers, we are interested in the fact who occupies the highest positions in the ranking based on this impact rate. 
