@@ -156,7 +156,14 @@ There are also a lot of other people in this ranking. The majority of them are A
   </script>
 </div>
 
-Here
+## Number of quotes in degree out degree
+
+In the year of 2015, 2017 and 2018, communities are weakly connected.
+whereas in the year of 2016, 2019 and 2020, communities are not weakly connected, which means that there are separated communities of speakers having connections only between people from the same community.
+
+The degree distribution and the in-degree distribution of the nodes in each year’s graph are skewed, justifying that we work with the real-world network.
+
+People at the center position tend to have high in degree and relatively low out degree while people on the edge are prone to have high out degree and relatively low in degree, corresponding to the true reality.
 
 
 <div>
