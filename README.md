@@ -107,6 +107,42 @@ The world is small, especially for famous public figures. Do you want to know ho
   </script>
 </div>
 
+<!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openGraph(event, '2015')" id="defaultOpen">2015</button>
+    <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
+    <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
+    <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
+    <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
+    <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="2015" class="tabcontent">
+    <div class="flourish-embed flourish-network" data-src="visualisation/8150019"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
+  </div>
+
+  <div id="2016" class="tabcontent">
+    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
+  </div>
+
+  <div id="2017" class="tabcontent">
+    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
+  </div>
+
+  <div id="2018" class="tabcontent">
+    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
+  </div>
+
+  <div id="2019" class="tabcontent">
+    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
+  </div>
+
+  <div id="2020" class="tabcontent">
+    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
+  </div>
+</div>
+
 ## Research Questions:
 * **Who are the most authoritative people that other speakers talk about?** 
     - Introducing the new measure of “influence” defined as the number of mentions of the person by other speakers, we are interested in the fact who occupies the highest positions in the ranking based on this impact rate. 
