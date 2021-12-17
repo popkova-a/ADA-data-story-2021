@@ -74,33 +74,27 @@ The world is small, especially for famous public figures. Do you want to know ho
 
   <!-- Tab content -->
   <div id="2015" class="tabcontent">
-    <h3>London</h3>
-    <p>London is the capital city of England.</p>
+    <embed type="text/html" src="plots/plot2015_750.html" width="800" height="800">
   </div>
 
   <div id="2016" class="tabcontent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p>
+    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
   </div>
 
   <div id="2017" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
   </div>
 
   <div id="2018" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
   </div>
 
   <div id="2019" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
   </div>
 
   <div id="2020" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
   </div>
 </div>
 ## Research Questions:
