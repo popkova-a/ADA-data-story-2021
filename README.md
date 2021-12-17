@@ -156,6 +156,9 @@ There are also a lot of other people in this ranking. The majority of them are A
   </script>
 </div>
 
+Here
+
+
 <div>
   <script>
   function openGraph(evt, yearName) {
@@ -259,6 +262,8 @@ There are also a lot of other people in this ranking. The majority of them are A
   </script>
 </div>
 
+Here
+
 <div>
   <script>
   function openGraph_comm(evt, yearName) {
@@ -361,6 +366,7 @@ There are also a lot of other people in this ranking. The majority of them are A
   </script>
 </div>
 
+Here
 <div class="flourish-embed flourish-chart" data-src="visualisation/8165619"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Research Questions:
