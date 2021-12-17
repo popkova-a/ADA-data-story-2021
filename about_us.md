@@ -1,3 +1,3 @@
-# Who we are
+# Our team
 
 We are team "Pandas & Brown Bears". 
