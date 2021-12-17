@@ -160,7 +160,7 @@ Joe Biden appeared in the top in 2018 and quickly took a leading position. His n
 
 * Hillary Clinton from the 3rd place moved out of the ranking in 2017: she was not quoted a lot, but her influence was still great.
 
-* The interesting fact is that we can’t see Mitchell McConnell in this ranking at all. That means that he was not often quoted in news articles, and, at the same time, he was authoritative, according to the top-7 of the most influential people.
+* The interesting fact is that we can’t see Mitchell McConnell in this ranking at all. This means that he was not often quoted in news articles, and, at the same time, he was authoritative, according to the top-7 of the most influential people.
 
 * Vladimir Putin was in the ranking in 2016-2018.
 
