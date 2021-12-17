@@ -164,7 +164,7 @@ Joe Biden appeared in the top in 2018 and quickly took a leading position. His n
 
 * **Vladimir Putin** was in the ranking in 2016-2018.
 
-* Narendra Modi and Pope Francis were often quoted in the news. They were always present at the top of our ranking based on the number of quotations. At the same time, we can’t see them among the most influential speakers.
+* **Narendra Modi** and **Pope Francis** were often quoted in the news. They were always present at the top of our ranking based on the number of quotations. At the same time, we can’t see them among the most influential speakers.
 
 There are also a lot of other people in this ranking. The majority of them are American politicians. However, we can also find politicians from Israel, Canada, the United Kingdom, India and Australia. Moreover, several football managers and even Elon Musk with an enormous number of quotations also appear in our ranking.
 
