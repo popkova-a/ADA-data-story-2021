@@ -5,85 +5,103 @@
 The world is small, especially for famous public figures. Do you want to know how two seemingly unrelated people in different fields could be connected to each other? Who talks about others most and who is talked among others most?  The aim of our project is to reveal these unobvious relationships between the most authoritative speakers by creating directed graphs with weighted edges for different years based on how much other people talk about a particular person according to Quotebank, a corpus of quotations attributed to the speakers who uttered them, extracted from news articles of 2015-2020. The graph will represent an “influence network” of Quotebank speakers. 
 # ------------------------------------
 <div>
-<script>
-function openGraph(evt, yearName) {
-  var i, tabcontent, tablinks;
+  <script>
+  function openGraph(evt, yearName) {
+    var i, tabcontent, tablinks;
 
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(yearName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  <style>
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
   }
 
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
   }
 
-  document.getElementById(yearName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
 
-<style>
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  </style>
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openGraph(event, '2015')">2015</button>
+    <button class="tablinks" onclick="openGraph(event, '2016')">2016</button>
+    <button class="tablinks" onclick="openGraph(event, '2017')">2017</button>
+    <button class="tablinks" onclick="openGraph(event, '2018')">2018</button>
+    <button class="tablinks" onclick="openGraph(event, '2019')">2019</button>
+    <button class="tablinks" onclick="openGraph(event, '2020')">2020</button>
+  </div>
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
+  <!-- Tab content -->
+  <div id="2015" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
 
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-</style>
+  <div id="2016" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
 
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openGraph(event, 'London')">London</button>
-  <button class="tablinks" onclick="openGraph(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openGraph(event, 'Tokyo')">Tokyo</button>
-</div>
+  <div id="2017" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+  <div id="2018" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
+  <div id="2019" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
+  <div id="2020" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 </div>
 ## Research Questions:
 * **Who are the most authoritative people that other speakers talk about?** 
