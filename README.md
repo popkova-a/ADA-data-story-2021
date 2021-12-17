@@ -271,9 +271,6 @@ People at the center position tend to have high in degree and relatively low out
 
 ## Profiles of the representative communities
 
-### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
-
-
 "Human beings form social networks because the benefits of a connected life outweigh the costs."
 
 * **"Most influential people" community**
@@ -428,7 +425,8 @@ People at the center position tend to have high in degree and relatively low out
   </script>
 </div>
 
-Here
+### Please note that in order to make the communities distinguishable, we limit the number of colors, the small communities are assigned to the last color.
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/8165619"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Research Questions:
