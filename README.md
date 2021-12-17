@@ -107,6 +107,109 @@ The world is small, especially for famous public figures. Do you want to know ho
   </script>
 </div>
 
+<div>
+  <script>
+  function openGraph_comm(evt, yearName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent_comm");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks_comm");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(yearName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  <style>
+  /* Style the tab */
+  .tab_comm {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 800px;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab_comm button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab_comm button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab_comm button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent_comm {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 800px;
+    height: 800px;
+  }
+  </style>
+
+  <!-- Tab links -->
+  <div class="tab_comm">
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2015_comm')" id="defaultOpen_comm">2015</button>
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2016_comm')">2016</button>
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2017_comm')">2017</button>
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2018_comm')">2018</button>
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2019_comm')">2019</button>
+    <button class="tablinks_comm" onclick="openGraph_comm(event, '2020_comm')">2020</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="2015_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2015_750.html" width="800" height="800">
+  </div>
+
+  <div id="2016_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2016_750.html" width="800" height="800">
+  </div>
+
+  <div id="2017_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2017_750.html" width="800" height="800">
+  </div>
+
+  <div id="2018_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2018_750.html" width="800" height="800">
+  </div>
+
+  <div id="2019_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2019_750.html" width="800" height="800">
+  </div>
+
+  <div id="2020_comm" class="tabcontent_comm">
+    <embed type="text/html" src="plots/plot2020_750.html" width="800" height="800">
+  </div>
+</div>
+
+<div>
+  <script>
+  document.getElementById("defaultOpen_comm").click();
+  </script>
+</div>
+
 ## Research Questions:
 * **Who are the most authoritative people that other speakers talk about?** 
     - Introducing the new measure of “influence” defined as the number of mentions of the person by other speakers, we are interested in the fact who occupies the highest positions in the ranking based on this impact rate. 
