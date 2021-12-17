@@ -30,6 +30,7 @@ The world is small, especially for famous public figures. Do you want to know ho
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    width: 800px;
   }
 
   /* Style the buttons that are used to open the tab content */
@@ -59,6 +60,8 @@ The world is small, especially for famous public figures. Do you want to know ho
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    width: 800px;
+    height: 800px;
   }
   </style>
 
