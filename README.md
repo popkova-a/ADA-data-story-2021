@@ -10,7 +10,7 @@ Nowadays we acquire information mostly from social media, but a lot of people st
 
 Quotebank, an open corpus of 178 million quotations attributed to the speakers who uttered them, was extracted from 162 million English news articles published between 2008 and 2020. Here, we first use Quotebank to find out the most “conversable” speakers. Since we want to find out the network of the most influential people, we selected 350 speakers whose quotation number ranks the highest. Then, we build a speaker pair, to find out how many times a “speaker” quoted a “character”.
 
-# Analysis of the top-7 most influential people with explanations based on the political events and connections between these speakers
+## Analysis of the top-7 most influential people with explanations based on the political events and connections between these speakers
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/8140221"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -32,7 +32,7 @@ So, who are the most influential people? To answer this question, let’s look a
 
 * The most unexpected (at least for us) person in this list is **Vladimir Putin**, the current president of Russia. His political actions were often widely discussed in the American and European press during the 2015-2020 period. Most members of the international community and organizations have condemned Russia for its actions in post-revolutionary Ukraine, accusing it of breaking international law and of violating Ukrainian sovereignty. In December 2015 Vladimir Putin admitted that Russian military intelligence officers were operating in Ukraine. In September 2015, President Putin authorized Russian military intervention in the Syrian civil war, following a formal request by the Syrian government for military assistance against rebel and jihadist groups. Putin announced in March 2016 that the mission he had set for the Russian military in Syria had been "largely accomplished" and ordered the withdrawal of the "main part" of the Russian forces from Syria. In 2018 Vladimir Putin won the presidential election and started his fourth term that will last until 2024. This event explains his high position in the ranking of 2018.
 
-# Analysis of the number of quotations
+## Analysis of the number of quotations
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/8163376"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
