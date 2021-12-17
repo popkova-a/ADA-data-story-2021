@@ -56,6 +56,7 @@ The world is small, especially for famous public figures. Do you want to know ho
   /* Style the tab content */
   .tabcontent {
     display: none;
+    padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
   }
