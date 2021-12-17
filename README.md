@@ -122,7 +122,7 @@ In the year of 2015, 2017 and 2018, communities are weakly connected, whereas in
 
 The degree distribution and the in-degree distribution of the nodes in each year’s graph are skewed, justifying that we work with the real-world network.
 
-People at the center position tend to have high in-degree and relatively low out-degree while people on the edge are prone to have high out degree and relatively low in degree, corresponding to the true reality.
+People at the center position tend to have high in-degree and relatively low out-degree while people on the edge are prone to have high out-degree and relatively low in-degree, corresponding to the true reality.
 
 ## Analysis of the top-7 most influential people with explanations based on the political events and connections between these speakers
 
